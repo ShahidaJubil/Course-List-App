@@ -1,0 +1,10 @@
+{
+    "courses":[
+        {"id":1,"description":"Course for javascript","name":"JS"},
+        {"id":2,"description":"Course for C programming","name":"C"},
+        {"id":3,"description":"Course for Python programming","name":"Python"},
+        {"id":4,"description":"Course for React ","name":"React"},
+        {"id":5,"description":"Course for Node JS ","name":"Node JS"}
+    ],
+    "enquiries":[]
+}

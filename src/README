@@ -1,0 +1,8 @@
+STEPS
+1. Install json server
+2. Created db.json file in the root of app (not inside src) and add some data
+3. Run json :- json-server --watch db.json --port 3001
+4. Endpoints:
+    http://localhost:3001/courses
+    http://localhost:3001/enquiries
+    Ensure json server must be in different port number
