@@ -6,3 +6,5 @@ STEPS
     http://localhost:3001/courses
     http://localhost:3001/enquiries
     Ensure json server must be in different port number
+5. npm install react-modal
+6.

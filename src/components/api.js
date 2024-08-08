@@ -13,9 +13,9 @@ export const getCourse = async () => {
   }
 };
 
-export const addEnquiry = async () => {
+export const addEnquiry = async (enquiry) => {
   try {
-    const response = await axios.post(`${API_URL}/enquiries`);
+    const response = await axios.post(`${API_URL}/enquiries`,enquiry);
     return response.data;
   } catch (error) {
     console.log("Post enquiry error", error);
@@ -25,8 +25,10 @@ export const addEnquiry = async () => {
 
 export const getEnquiry = async () => {
   try {
-    const response = await axios.get(`${API_URL}/requirements`);
+    const response = await axios.get(`${API_URL}/enquiries`);
+    console.log("get enquiry",response)
     return response.data;
+   
   } catch (error) {
     console.log("get enquiry error", error);
     throw error;

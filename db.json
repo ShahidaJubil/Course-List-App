@@ -1,10 +1,61 @@
 {
-    "courses":[
-        {"id":1,"description":"Course for javascript","name":"JS"},
-        {"id":2,"description":"Course for C programming","name":"C"},
-        {"id":3,"description":"Course for Python programming","name":"Python"},
-        {"id":4,"description":"Course for React ","name":"React"},
-        {"id":5,"description":"Course for Node JS ","name":"Node JS"}
-    ],
-    "enquiries":[]
+  "courses": [
+    {
+      "id": "1",
+      "description": "Course for javascript",
+      "name": "JS"
+    },
+    {
+      "id": "2",
+      "description": "Course for C programming",
+      "name": "C"
+    },
+    {
+      "id": "3",
+      "description": "Course for Python programming",
+      "name": "Python"
+    },
+    {
+      "id": "4",
+      "description": "Course for React ",
+      "name": "React"
+    },
+    {
+      "id": "5",
+      "description": "Course for Node JS ",
+      "name": "Node JS"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "4376"
+    },
+    {
+      "id": "73b8"
+    },
+    {
+      "id": "ec7d",
+      "courseId": "1",
+      "name": "wqewq",
+      "mail": "werfewtfg"
+    },
+    {
+      "id": "db59",
+      "courseId": "4",
+      "name": "",
+      "mail": ""
+    },
+    {
+      "id": "34ff",
+      "courseId": "1",
+      "name": "",
+      "mail": ""
+    },
+    {
+      "id": "79d9",
+      "courseId": "4",
+      "name": "sfddsg",
+      "mail": "shahidajubil@gmail.com"
+    }
+  ]
 }
