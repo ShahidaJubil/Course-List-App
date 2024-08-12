@@ -9,12 +9,13 @@ const EnquiryForm = ({ courseId,courseName }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const enquiry = { courseId, name, mail };
+    const enquiry = { courseId,courseName , name, mail,phone };
     
     try {
       await addEnquiry(enquiry);
       setMail("");
       setName("");
+      setPhone("")
       console.log("set name",name)
       alert("Form submission successful");
     } catch (error) {

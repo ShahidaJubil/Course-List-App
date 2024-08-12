@@ -1,0 +1,26 @@
+.enquiryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .enquiryTable th,
+  .enquiryTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .enquiryTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .enquiryTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .enquiryTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  

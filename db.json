@@ -28,34 +28,43 @@
   ],
   "enquiries": [
     {
-      "id": "4376"
-    },
-    {
-      "id": "73b8"
-    },
-    {
-      "id": "ec7d",
+      "id": "3d0e",
       "courseId": "1",
-      "name": "wqewq",
-      "mail": "werfewtfg"
+      "name": "Shahida K K",
+      "mail": "shahidajubil@gmail.com",
+      "phone": "07306315095"
     },
     {
-      "id": "db59",
+      "id": "264e",
+      "courseId": "2",
+      "courseName": "C",
+      "name": "Shahida K K",
+      "mail": "shahidajubil@gmail.com",
+      "phone": "07306315095"
+    },
+    {
+      "id": "b93f",
       "courseId": "4",
-      "name": "",
-      "mail": ""
+      "courseName": "React",
+      "name": "Shahida K K",
+      "mail": "shahidajubil@gmail.com",
+      "phone": "07306315095"
     },
     {
-      "id": "34ff",
+      "id": "a8d1",
       "courseId": "1",
-      "name": "",
-      "mail": ""
+      "courseName": "JS",
+      "name": "Shahida K K",
+      "mail": "shahidajubil@gmail.com",
+      "phone": "07306315095"
     },
     {
-      "id": "79d9",
-      "courseId": "4",
-      "name": "sfddsg",
-      "mail": "shahidajubil@gmail.com"
+      "id": "7dac",
+      "courseId": "2",
+      "courseName": "C",
+      "name": "Shahida K K",
+      "mail": "shahidajubil@gmail.com",
+      "phone": "07306315095"
     }
   ]
 }

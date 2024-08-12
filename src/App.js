@@ -1,14 +1,18 @@
-import React from 'react'
-import CourseList from './components/CourseList'
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import CourseList from "./components/CourseList";
+import Enquiries from "./components/Enquiries";
 
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <CourseList/>
-      
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<CourseList/>} />
+        <Route path="/enquiries" element={<Enquiries />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
